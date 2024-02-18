@@ -1,5 +1,5 @@
 /* J_Richardson_AB_37
- * Assignment -147_2
+ * Assignment -148
 write testNG classes for the following 
 1.login to amazon 
 2.search for a pen 
@@ -17,7 +17,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-public class Assignment147_2 extends Launch_quit {
+public class Assignment148 extends Launch_quit {
 	@Test
 	public void login_DD_books_srch_Book_logout() throws InterruptedException {
 

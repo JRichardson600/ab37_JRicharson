@@ -19,7 +19,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class Assignment147_1 extends Launch_quit {
+public class Assignment147 extends Launch_quit {
 	@Test
 	public void login_Search_Pen_addToCart_logout() throws InterruptedException {
 		WebElement amsearch_tf = driver.findElement(By.id("twotabsearchtextbox"));
