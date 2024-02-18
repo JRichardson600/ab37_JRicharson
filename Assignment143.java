@@ -1,6 +1,7 @@
 /* J_Richardson_AB_37
- * Assignment -149
-Scroll down on youtube for infinite times */
+ * Assignment -143
+create a class which has 2 @test with priority as 1,
+and find out which one executes first */
 
 package TestNGAssigments;
 
@@ -29,7 +30,7 @@ public class Assignment143 {
 		System.out.println("TestCase3");
 	}
 
-	@Test
+	@Test(priority = 1)
 	public void dtestCase4() {
 		System.out.println("TestCase4");
 	}
